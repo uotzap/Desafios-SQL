@@ -1,0 +1,22 @@
+Desafio SQL DML
+
+Você é o DBA de uma empresa na qual os salários-base de todos os cargos foram reajustados. 
+Sua tarefa é atualizar os salários dos empregados cujos valores estão abaixo do salário-base correspondente ao seu cargo.
+
+Tabela ‘emp’:
++-------+----------+--------+
+| nome  | salario  | idCargo|
++-------+----------+--------+
+| Jinx  | 3500.00  |   1    |
+| Silco | 3180.00  |   1    |
+| Vander| 7000.00  |   2    |
+| Ekko  | 3630.00  |   1    |
++-------+----------+--------+
+
+Tabela ‘carg’:
++---------+-------------+
+| idCargo | salarioBase |
++---------+-------------+
+| 1       | 3500.00     |
+| 2       | 7200.00     |
++---------+-------------+
